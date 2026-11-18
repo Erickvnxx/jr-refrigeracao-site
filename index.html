@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JR Refrigeração · Peças e ferramentas de refrigeração em Teresina</title>
+<meta name="description" content="Peças, ferramentas e equipamentos para ar-condicionado, refrigeração comercial e lava e seca. Duas lojas em Teresina: Kennedy e Dirceu.">
+<meta property="og:title" content="JR Refrigeração · Peça certa, ar gelando">
+<meta property="og:description" content="Peças e ferramentas de ar-condicionado e refrigeração. Lojas Kennedy e Dirceu, Teresina-PI. Monte o pedido e mande pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1118" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2327324a'/%3E%3Ctext x='7' y='45' font-family='Arial Narrow,Arial' font-weight='900' font-size='34' fill='%23ffffff'%3EJR%3C/text%3E%3Cpath d='M44 20q4-4 8 0t8 0M44 30q4-4 8 0t8 0M44 40q4-4 8 0t8 0' fill='none' stroke='%237cb77f' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f6f3; --paper:#ffffff; --bg-2:#ecece7; --bg-3:#dcdcd4; --ink:#10141d; --soft:#555c69; --line:#10141d;
+  --navy:#27324a; --green:#5fa964; --green-ink:#0d240f; --copper:#c47a45; --sky:#a8c6da;
+  --part:#ffffff; --part-2:#e9ecef; --stroke:#10141d;
+  --m:clamp(16px,3.2vw,48px);
+  --font:"Schibsted Grotesk","Schibsted Grotesk Variable",system-ui,sans-serif;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1118; --paper:#141a24; --bg-2:#19202c; --bg-3:#252e3d; --ink:#f1f3f6; --soft:#a3abb8; --line:#f1f3f6;
+    --navy:#1b2436; --green:#79c07e; --green-ink:#0b1f0e; --copper:#d98f5a; --sky:#7fa3bd;
+    --part:#1c2431; --part-2:#273142; --stroke:#e6eaf0;
+  }
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 clamp(1rem,.97rem + .15vw,1.0625rem)/1.55 var(--font);overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{max-width:1360px;margin-inline:auto;padding-inline:var(--m)}
+.mega{font-weight:800;line-height:.95;letter-spacing:-.045em}
+.caps{font-weight:500;font-size:1.1rem;line-height:1.45;color:var(--soft)}
+h2.mega{font-size:clamp(2.6rem,1.4rem + 4vw,5.2rem)}
+
+.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:60px;padding:0 24px;border:0;border-radius:0;background:var(--green);color:var(--green-ink);font:800 1.15rem/1 var(--font);text-decoration:none;cursor:pointer;transition:transform .15s var(--ease),background-color .2s}
+.btn:hover{background:#6fbb74}
+.btn:active{transform:scale(.97)}
+.btn .ar{transition:transform .2s var(--ease)}
+.btn:hover .ar{transform:translateX(4px)}
+.btn svg{width:22px;height:22px}
+.btn.dark{background:var(--ink);color:var(--bg)}
+.btn.dark:hover{background:var(--navy);color:#fff}
+.btn.wa{background:#25d366;color:#06301a}
+
+/* nav */
+.nav{position:absolute;left:0;right:0;top:0;z-index:10}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;height:84px}
+.logo{display:inline-flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1}
+.logo .top{display:flex;align-items:center;gap:5px}
+.logo b{font-size:2rem;font-weight:900;letter-spacing:-.06em;line-height:.8}
+.logo .w{width:38px;height:24px}
+.logo small{font-size:.72rem;font-weight:800;margin-top:3px}
+.nav ul{display:flex;gap:36px;list-style:none;padding:0}
+.nav ul a{text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 0;border-bottom:2px solid transparent;transition:border-color .15s}
+.nav ul a:hover{border-color:var(--ink)}
+.cart{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:.9rem;padding:10px 0}
+.cart em{font-style:normal;display:grid;place-items:center;min-width:28px;height:28px;padding:0 6px;background:var(--ink);color:var(--bg);font-size:.85rem;transition:transform .2s var(--ease),background-color .2s}
+.cart em.bump{transform:scale(1.25);background:var(--green);color:var(--green-ink)}
+
+/* palco 3D */
+.stage{position:relative;height:330svh}
+.sticky{position:sticky;top:0;height:100svh;overflow:hidden}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:pan-y}
+.bigword{position:absolute;left:58%;top:50%;transform:translate(-50%,-50%);margin:0;font-weight:900;letter-spacing:-.06em;line-height:.78;font-size:min(62vw,95svh);color:var(--green);opacity:.13;filter:blur(2px);pointer-events:none;user-select:none;will-change:transform}
+@media (prefers-color-scheme:dark){.bigword{opacity:.16}}
+.copy{position:absolute;left:var(--m);bottom:clamp(28px,6svh,72px);z-index:3;max-width:min(46vw,640px);will-change:opacity,transform}
+.copy h1{font-size:clamp(2.8rem,min(6.6vw,12svh),7.2rem);line-height:.95}
+.copy .caps{margin-top:22px;max-width:34ch}
+.copy .btn{margin-top:26px;min-width:280px}
+.step2{position:absolute;left:var(--m);bottom:clamp(28px,6svh,72px);z-index:3;max-width:420px;opacity:0;transform:translateY(20px);pointer-events:none}
+.step2 .mega{font-size:clamp(2.2rem,1.2rem + 2.6vw,3.8rem);line-height:.95}
+.step2 p:last-child{margin-top:10px;color:var(--soft)}
+.tags{position:absolute;inset:0;z-index:4;pointer-events:none}
+.tag3{position:absolute;left:0;top:0;display:inline-flex;align-items:center;gap:8px;padding:8px 14px 8px 8px;border:0;border-radius:999px;background:var(--paper);color:var(--ink);box-shadow:0 8px 24px -10px rgba(0,0,0,.35),inset 0 0 0 1px color-mix(in srgb,var(--ink) 12%,transparent);font:700 .85rem/1 var(--font);white-space:nowrap;cursor:pointer;opacity:0;pointer-events:none;transition:background-color .15s,color .15s,box-shadow .2s}
+.tag3::before{content:"";position:absolute;right:100%;top:50%;width:34px;height:2px;background:var(--ink);opacity:.55}
+.tag3::after{content:"";position:absolute;right:calc(100% + 30px);top:50%;width:8px;height:8px;margin-top:-3px;border-radius:50%;background:var(--ink)}
+.tag3 i{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--paper);font-style:normal;font-weight:800;font-size:1rem;transition:transform .25s var(--ease),background-color .2s}
+.tag3.on{pointer-events:auto}
+.tag3:hover{background:var(--ink);color:var(--paper)}
+.tag3:hover i{background:var(--green);color:var(--green-ink)}
+.tag3[aria-pressed="true"]{background:var(--green);color:var(--green-ink)}
+.tag3[aria-pressed="true"] i{background:var(--green-ink);color:var(--green);transform:rotate(45deg)}
+.hint{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);z-index:3;font-weight:700;font-size:.8rem;color:var(--soft)}
+.hint span{display:inline-block;animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(4px)}}
+.no-gl .stage{height:auto}
+.no-gl .sticky{position:relative;height:auto;min-height:100svh;padding:120px 0 40px}
+.no-gl #gl,.no-gl .hint,.no-gl .step2{display:none}
+.no-gl .copy{position:relative;left:auto;bottom:auto;padding-inline:var(--m);max-width:none}
+.no-gl .tags{position:relative;display:flex;flex-wrap:wrap;gap:8px;padding:32px var(--m)}
+.no-gl .tag3{position:relative;opacity:1;pointer-events:auto}
+.no-gl .tag3::before,.no-gl .tag3::after{display:none}
+@media (max-width:860px){
+  .bigword{left:50%;top:58%;font-size:min(120vw,70svh)}
+  .copy{left:var(--m);right:var(--m);top:96px;bottom:auto;max-width:none}
+  .copy h1{font-size:clamp(2.5rem,11.5vw,4.2rem)}
+  .copy .caps{margin-top:14px;font-size:.82rem}
+  .copy .btn{display:none}
+  .step2{left:var(--m);right:var(--m);top:96px;bottom:auto;max-width:none}
+  .step2 .mega{font-size:clamp(2rem,9vw,2.8rem)}
+  .tag3{font-size:.72rem;padding:6px 10px 6px 6px}
+  .tag3 i{width:20px;height:20px;font-size:.9rem}
+  .tag3::before{width:18px}.tag3::after{right:calc(100% + 15px)}
+}
+
+/* faixa preta */
+.strip{background:var(--ink);color:var(--bg);overflow:hidden}
+.strip div{display:flex;width:max-content;animation:tick 36s linear infinite}
+.strip span{font-weight:800;letter-spacing:-.03em;font-size:clamp(1.6rem,1.2rem + 1.4vw,2.6rem);padding:18px 0;white-space:nowrap}
+.strip b{color:var(--green);padding:0 .6em}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* catálogo */
+.cat{padding-block:clamp(96px,11vw,170px)}
+.cat-head{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:32px;align-items:end;margin-bottom:clamp(40px,5vw,72px)}
+.cat-head p{max-width:38ch;font-size:1.0625rem}
+.dep{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(20px,4vw,64px);padding:clamp(26px,3vw,40px) 0;border-top:3px solid var(--line)}
+.dep:last-child{border-bottom:3px solid var(--line)}
+.dep h3{font-weight:800;letter-spacing:-.04em;line-height:.95;font-size:clamp(2rem,1.3rem + 2.2vw,3.4rem);transition:color .2s}
+.dep:hover h3{color:var(--green)}
+.dep .sub{margin-top:10px;color:var(--soft)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;padding-top:6px}
+.chip{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 16px 0 10px;border:0;background:var(--paper);font-weight:600;font-size:.97rem;cursor:pointer;transition:background-color .15s,color .15s,transform .15s}
+.chip i{display:grid;place-items:center;width:22px;height:22px;background:var(--bg-2);font-style:normal;font-weight:800;transition:transform .25s var(--ease),background-color .2s}
+.chip:hover{background:var(--ink);color:var(--bg)}
+.chip:hover i{background:var(--green);color:var(--green-ink)}
+.chip:active{transform:scale(.96)}
+.chip[aria-pressed="true"]{background:var(--green);color:var(--green-ink)}
+.chip[aria-pressed="true"] i{background:var(--green-ink);color:var(--green);transform:rotate(45deg)}
+
+/* mosaico */
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.tile{position:relative;overflow:hidden;border-radius:28px;padding:clamp(24px,2.8vw,40px);min-height:520px;display:flex;flex-direction:column;gap:20px;transition:transform .35s var(--ease)}
+.tile:hover{transform:translateY(-4px)}
+.t-ac{grid-column:span 7;background:var(--navy);color:#fff}
+.t-com{grid-column:span 5;background:#cfe9d3;color:#10141d}
+.t-lav{grid-column:span 5;background:#d6e6f1;color:#10141d}
+.t-fer{grid-column:span 7;background:#efe6dc;color:#10141d}
+@media (prefers-color-scheme:dark){.t-ac{background:#1d2840}.t-com{background:#183022;color:#eef7ef}.t-lav{background:#172636;color:#eaf2f8}.t-fer{background:#2a231c;color:#f6efe8}}
+.tile h3{font-weight:800;letter-spacing:-.045em;line-height:.95;font-size:clamp(2rem,1.3rem + 2vw,3.2rem)}
+.t-txt p{margin-top:10px;opacity:.78;max-width:30ch}
+.t-art{flex:1;min-height:0;width:100%;max-height:260px;margin:auto 0;object-fit:contain}
+.t-com .t-art,.t-lav .t-art{max-height:280px}
+.tile .chips{padding-top:0}
+.tile .chip{background:rgba(255,255,255,.75);color:#10141d}
+.t-ac .chip{background:rgba(255,255,255,.12);color:#fff}
+@media (prefers-color-scheme:dark){.tile .chip{background:rgba(255,255,255,.1);color:inherit}}
+.tile .chip i{background:rgba(16,20,29,.1)}
+.t-ac .chip i{background:rgba(255,255,255,.16)}
+.tile .chip:hover{background:#10141d;color:#fff}
+.t-ac .chip:hover{background:#fff;color:#10141d}
+.spin{animation:sp 1.6s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.drum{animation:sp 3.5s linear infinite}
+.needle{animation:sweep 3s var(--ease) infinite alternate}.needle.n2{animation-duration:4.2s}
+@keyframes sweep{from{transform:rotate(-60deg)}to{transform:rotate(55deg)}}
+.ac-air path{stroke-dasharray:240;animation:flow 3s ease-in-out infinite}.ac-air path:nth-child(2){animation-delay:.3s}.ac-air path:nth-child(3){animation-delay:.6s}
+@keyframes flow{0%{stroke-dashoffset:240;opacity:0}30%{opacity:1}100%{stroke-dashoffset:-240;opacity:0}}
+.frost circle{animation:tw 2.4s ease-in-out infinite}.frost circle:nth-child(2n){animation-delay:1.2s}
+@keyframes tw{50%{opacity:.2}}
+
+/* quem */
+.quem{padding-bottom:clamp(96px,11vw,170px)}
+.quem h2{margin-bottom:clamp(32px,4vw,56px)}
+.quem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,48px)}
+.quem-grid article{border-top:3px solid var(--line);padding-top:22px}
+.q-big{font-weight:800;letter-spacing:-.04em;line-height:1;font-size:clamp(1.6rem,1.2rem + 1.2vw,2.4rem);margin-bottom:12px}
+.quem-grid article p:last-child{color:var(--soft)}
+
+/* celular do whatsapp */
+.phone{margin-top:40px;max-width:380px;border-radius:28px;background:#0b141a;padding:10px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.ph-top{display:flex;align-items:center;gap:12px;padding:10px 12px;background:#1f2c34;border-radius:20px 20px 0 0;color:#e9edef}
+.ph-top b{display:block;font-size:.98rem}.ph-top small{color:#8696a0}
+.ph-av{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#fff;color:#27324a;font-weight:900;letter-spacing:-.06em}
+.ph-body{background:#0b141a;padding:18px 12px 22px;border-radius:0 0 20px 20px;min-height:180px;display:flex;flex-direction:column;align-items:flex-end}
+.bubble{max-width:88%;background:#005c4b;color:#e9edef;padding:10px 12px;border-radius:12px 0 12px 12px;white-space:pre-wrap;font-size:.92rem;line-height:1.45;animation:pop .3s var(--ease)}
+
+/* mapa */
+.map{width:100%;height:auto;border-radius:20px;margin-bottom:10px}
+.pinpulse circle{transform-box:fill-box;transform-origin:center;animation:pp 2.2s ease-out infinite}
+@keyframes pp{from{transform:scale(.4);opacity:.6}to{transform:scale(1.8);opacity:0}}
+
+/* instagram */
+.insta{padding-bottom:clamp(96px,11vw,170px)}
+.insta-box{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px 48px;align-items:center;background:var(--paper);border-radius:28px;padding:clamp(28px,4vw,56px)}
+.insta-box p{margin-top:12px;color:var(--soft);max-width:36ch}
+.hl{display:flex;gap:clamp(14px,2vw,28px);list-style:none;padding:0;grid-row:span 2}
+.hl a{display:flex;flex-direction:column;align-items:center;gap:10px;text-decoration:none;font-weight:600;font-size:.92rem;text-align:center;width:96px}
+.ring{display:grid;place-items:center;width:88px;height:88px;border-radius:50%;box-shadow:0 0 0 3px var(--green);background:var(--bg-2);color:var(--ink);transition:transform .2s var(--ease)}
+.ring svg{width:40px;height:40px}
+.hl a:hover .ring{transform:scale(1.06)}
+.insta-box .btn{justify-self:start}
+@media (max-width:980px){
+  .t-ac,.t-com,.t-lav,.t-fer{grid-column:span 12;min-height:0}
+  .quem-grid{grid-template-columns:1fr}
+  .insta-box{grid-template-columns:1fr}
+  .hl{grid-row:auto;flex-wrap:wrap}
+}
+@media (max-width:520px){.hl a{width:72px}.ring{width:68px;height:68px}.ring svg{width:30px;height:30px}}
+
+/* pedido */
+.pedido{background:var(--navy);color:#fff;padding-block:clamp(96px,11vw,170px)}
+.ped{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:start}
+.ped h2{color:#fff}
+.ped-text p{margin-top:24px;font-size:1.1rem;color:#c7d0df;max-width:36ch}
+.pad{background:#ffffff;color:#10141d;padding:clamp(18px,2.4vw,30px);display:flex;flex-direction:column;gap:8px}
+@media (prefers-color-scheme:dark){.pad{background:#141a24;color:#f1f3f6}}
+.pad-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-bottom:10px;border-bottom:3px solid currentColor;margin-bottom:6px}
+.pad-head b{font-weight:800;letter-spacing:-.03em;font-size:1.7rem;line-height:1}
+.pad-head span{font-weight:700;font-size:.85rem}
+.lines{list-style:none;padding:0;display:flex;flex-direction:column}
+.lines li{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;padding:8px 0;min-height:58px;font-weight:600;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);animation:pop .3s var(--ease)}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}}
+.lines li.empty{display:block;padding:16px 0;opacity:.7;font-weight:500;animation:none}
+.q{display:flex;align-items:center;gap:4px}
+.q button{width:42px;height:42px;border:0;background:color-mix(in srgb,currentColor 9%,transparent);cursor:pointer;font-weight:800;font-size:1.1rem;transition:background-color .15s,color .15s}
+.q button:hover{background:#10141d;color:#fff}
+.q output{min-width:36px;text-align:center}
+.newline{display:grid;grid-template-columns:1fr auto;gap:6px;margin-top:8px}
+.field{width:100%;height:54px;border:0;background:color-mix(in srgb,currentColor 7%,transparent);padding:0 16px;transition:box-shadow .15s}
+.field:focus{outline:none;box-shadow:inset 0 0 0 2px var(--green)}
+.field::placeholder{color:inherit;opacity:.6}
+.newline button{height:54px;padding:0 20px;border:0;background:#10141d;color:#fff;font-weight:800;cursor:pointer}
+@media (prefers-color-scheme:dark){.newline button{background:#f1f3f6;color:#10141d}}
+.pick{display:grid;grid-template-columns:1fr 1fr;gap:6px;border:0;padding:0;margin-top:10px}
+.pick legend{font-weight:700;font-size:.85rem;margin-bottom:8px}
+.pick label{display:flex;align-items:center;justify-content:center;height:54px;background:color-mix(in srgb,currentColor 7%,transparent);cursor:pointer;font-weight:800;transition:all .15s}
+.pick input{position:absolute;opacity:0}
+.pick label:has(input:checked){background:#10141d;color:#fff}
+@media (prefers-color-scheme:dark){.pick label:has(input:checked){background:#f1f3f6;color:#10141d}}
+.pick label:has(input:focus-visible){outline:3px solid var(--green);outline-offset:3px}
+.send{width:100%;margin-top:10px;justify-content:center}
+.send[aria-disabled="true"]{opacity:.4;pointer-events:none}
+
+/* lojas */
+.lojas{padding-block:clamp(96px,11vw,170px)}
+.lojas h2{margin-bottom:clamp(40px,5vw,72px)}
+.lj{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px)}
+.loja{border-top:3px solid var(--line);padding-top:24px;display:flex;flex-direction:column;gap:14px}
+.loja h3{font-weight:800;letter-spacing:-.045em;line-height:.9;font-size:clamp(2.8rem,1.6rem + 3.6vw,5.2rem)}
+.loja address{font-style:normal;font-size:1.15rem;line-height:1.5}
+.loja .num{color:var(--soft)}
+.loja .num a{color:var(--ink);font-weight:700;text-decoration:none}
+.loja .acts{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:12px}
+.link{font-weight:800;font-size:.9rem;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+.link:hover{color:var(--green)}
+.serv{margin-top:clamp(48px,6vw,88px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--green);color:var(--green-ink);padding:clamp(24px,3vw,40px)}
+.serv h3{font-weight:800;letter-spacing:-.04em;line-height:.95;font-size:clamp(2.2rem,1.5rem + 2.4vw,3.6rem)}
+.serv p{margin-top:6px;font-weight:500}
+
+/* rodapé */
+footer{background:var(--ink);color:var(--bg);padding:64px 0 28px;overflow:hidden}
+.f-top{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+.f-top h4{font-weight:800;font-size:.9rem;margin-bottom:12px}
+.f-top p,.f-top li{opacity:.75;font-size:.97rem;line-height:1.6}
+.f-top ul{list-style:none;padding:0}
+.f-top a{text-decoration:none}
+.f-top a:hover{opacity:1;color:var(--green)}
+.f-mark{display:inline-block;font-weight:800;line-height:.85;font-size:12vw;letter-spacing:-.05em;margin-top:72px;white-space:nowrap}
+.f-mark span{color:var(--green)}
+.legal{opacity:.6;font-size:.85rem;margin-top:20px}
+
+/* whatsapp flutuante */
+.fab{position:fixed;right:16px;bottom:16px;z-index:30;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.fab-btn{width:60px;height:60px;border-radius:50%;border:0;background:#25d366;color:#fff;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 26px -8px rgba(0,0,0,.4);transition:transform .2s var(--ease)}
+.fab-btn:hover{transform:scale(1.06)}
+.fab-btn:active{transform:scale(.94)}
+.fab-btn svg{width:30px;height:30px}
+.fab-menu{display:none;flex-direction:column;background:var(--paper);box-shadow:0 18px 40px -12px rgba(0,0,0,.4);min-width:250px}
+.fab.open .fab-menu{display:flex;animation:pop .2s var(--ease)}
+.fab-menu a{display:block;padding:14px 20px;text-decoration:none;font-weight:700;transition:background-color .15s}
+.fab-menu a:hover{background:var(--bg-2)}
+.fab-menu a small{display:block;font-weight:500;color:var(--soft)}
+
+/* entradas */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:calc(var(--i,0)*70ms)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .rv{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+
+@media (max-width:980px){
+  .cat-head,.ped{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .nav ul{display:none}
+  .nav .wrap{height:72px}
+  .dep{grid-template-columns:1fr}
+  .lj{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .f-mark span{display:block}
+  footer{padding-bottom:96px}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wv" viewBox="0 0 46 30"><path d="M2 6q5.5-5 11 0t11 0t11 0t9 0M2 15q5.5-5 11 0t11 0t11 0t9 0M2 24q5.5-5 11 0t11 0t11 0t9 0" fill="none" stroke-width="4" stroke-linecap="round"/></symbol>
+  <symbol id="wa" viewBox="0 0 32 32"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.1l-1 1.3c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5.1 2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4Z"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="JR Refrigeração, início">
+      <span class="top"><b>JR</b><svg class="w" aria-hidden="true"><use href="#wv" stroke="#6fb374"/></svg></span>
+      <small>REFRIGERAÇÃO</small>
+    </a>
+    <nav aria-label="Principal"><ul>
+      <li><a href="#pecas">Peças</a></li>
+      <li><a href="#pedido">Pedido</a></li>
+      <li><a href="#lojas">Lojas</a></li>
+    </ul></nav>
+    <a class="cart" href="#pedido">Pedido <em id="count">0</em></a>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="stage" id="stage" aria-labelledby="h1">
+    <div class="sticky">
+      <p class="bigword" aria-hidden="true">JR</p>
+      <canvas id="gl" aria-hidden="true"></canvas>
+      <div class="copy">
+        <h1 class="mega" id="h1">Peça certa,<br>ar gelando</h1>
+        <p class="caps">Peças e ferramentas de ar-condicionado e refrigeração. Duas lojas em Teresina.</p>
+        <a class="btn" href="#pedido">Montar pedido <span class="ar" aria-hidden="true">→</span></a>
+      </div>
+      <div class="step2" id="step2">
+        <p class="mega">Seis peças de um split.</p>
+        <p>Todas no balcão da JR. Toca numa peça pra colocar no pedido.</p>
+      </div>
+      <div class="tags" id="tags">
+        <button class="tag3" data-part="panel" data-item="Tampa / painel frontal"><i>+</i>Painel frontal</button>
+        <button class="tag3" data-part="filter" data-item="Filtro de ar"><i>+</i>Filtro</button>
+        <button class="tag3" data-part="coil" data-item="Serpentina"><i>+</i>Serpentina</button>
+        <button class="tag3" data-part="fan" data-item="Turbina"><i>+</i>Turbina</button>
+        <button class="tag3" data-part="pcb" data-item="Placa / sensor de split"><i>+</i>Placa e sensor</button>
+        <button class="tag3" data-part="cap" data-item="Capacitor"><i>+</i>Capacitor</button>
+      </div>
+      <p class="hint" id="hint" aria-hidden="true">Role pra desmontar <span>↓</span></p>
+    </div>
+  </section>
+
+  <section class="cat" id="pecas" aria-labelledby="h-pecas">
+    <div class="wrap">
+      <div class="cat-head">
+        <h2 class="mega rv" id="h-pecas">O que tem na loja</h2>
+        <p class="rv" style="--i:1">As melhores soluções em ar-condicionado e refrigeração comercial. Toca no que você precisa; o que não estiver aqui, escreve no pedido que a equipe confere.</p>
+      </div>
+      <div class="bento">
+        <article class="tile t-ac rv">
+          <div class="t-txt"><h3>Ar-condicionado</h3><p>Split, janela e cassete. Da placa ao tubo de cobre.</p></div>
+          <svg class="t-art" viewBox="0 0 420 260" aria-hidden="true">
+            <rect x="40" y="40" width="300" height="86" rx="16" fill="#fff"/><rect x="40" y="102" width="300" height="24" fill="#e3e9ef"/><rect x="62" y="108" width="256" height="6" rx="3" fill="#b8c4d2"/><circle cx="314" cy="66" r="6" fill="#7cd284"/>
+            <g class="ac-air" fill="none" stroke-width="8" stroke-linecap="round"><path d="M80 158q26-16 52 0t52 0t52 0t52 0" stroke="#a8c6da"/><path d="M104 188q26-16 52 0t52 0t52 0" stroke="#7cd284"/><path d="M128 218q26-16 52 0t52 0" stroke="#a8c6da" opacity=".6"/></g>
+            <path d="M330 126v60M346 126v60" stroke="#c8794a" stroke-width="7" stroke-linecap="round"/>
+            <g transform="translate(300 176)"><rect width="110" height="74" rx="8" fill="#a8c6da"/><circle cx="76" cy="37" r="26" fill="#89acc4"/><g class="spin" style="transform-origin:76px 37px"><path d="M76 37q-3-20 9-22q5 13-9 22zM76 37q20-3 22 9q-13 5-22-9zM76 37q3 20-9 22q-5-13 9-22zM76 37q-20 3-22-9q13-5 22 9z" fill="#27324a"/></g><rect x="12" y="16" width="38" height="5" rx="2" fill="#89acc4"/><rect x="12" y="28" width="38" height="5" rx="2" fill="#89acc4"/><rect x="12" y="40" width="38" height="5" rx="2" fill="#89acc4"/><rect x="12" y="52" width="38" height="5" rx="2" fill="#89acc4"/></g>
+          </svg>
+          <div class="chips">
+            <button class="chip" data-item="Capacitor"><i>+</i>Capacitores</button>
+            <button class="chip" data-item="Placa / sensor de split"><i>+</i>Placas e sensores</button>
+            <button class="chip" data-item="Turbina"><i>+</i>Turbinas</button>
+            <button class="chip" data-item="Tubo de cobre (metro)"><i>+</i>Tubo de cobre</button>
+            <button class="chip" data-item="Isolamento térmico"><i>+</i>Isolamento</button>
+            <button class="chip" data-item="Suporte de condensadora"><i>+</i>Suportes</button>
+            <button class="chip" data-item="Controle remoto universal"><i>+</i>Controles</button>
+          </div>
+        </article>
+        <article class="tile t-com rv" style="--i:1">
+          <div class="t-txt"><h3>Refrigeração comercial</h3><p>Freezer, expositor, balcão e câmara fria.</p></div>
+          <svg class="t-art" viewBox="0 0 260 300" aria-hidden="true">
+            <rect x="50" y="20" width="160" height="270" rx="12" fill="#1c3a26"/><rect x="62" y="34" width="136" height="214" rx="6" fill="#bfe3c6" opacity=".9"/>
+            <g fill="#1c3a26"><rect x="62" y="96" width="136" height="5"/><rect x="62" y="160" width="136" height="5"/></g>
+            <g><rect x="76" y="52" width="16" height="44" rx="6" fill="#fff"/><rect x="100" y="60" width="16" height="36" rx="6" fill="#a8c6da"/><rect x="124" y="52" width="16" height="44" rx="6" fill="#fff"/><rect x="148" y="58" width="16" height="38" rx="6" fill="#f0b48a"/><rect x="172" y="52" width="16" height="44" rx="6" fill="#a8c6da"/>
+            <rect x="76" y="118" width="22" height="42" rx="4" fill="#f0b48a"/><rect x="106" y="124" width="22" height="36" rx="4" fill="#fff"/><rect x="136" y="118" width="22" height="42" rx="4" fill="#a8c6da"/><rect x="166" y="124" width="22" height="36" rx="4" fill="#fff"/>
+            <rect x="76" y="182" width="50" height="44" rx="4" fill="#fff"/><rect x="134" y="188" width="50" height="38" rx="4" fill="#a8c6da"/></g>
+            <rect x="186" y="110" width="6" height="70" rx="3" fill="#fff"/><rect x="62" y="258" width="136" height="20" rx="4" fill="#2b5537"/>
+            <g class="frost" fill="#fff"><circle cx="40" cy="70" r="3"/><circle cx="226" cy="120" r="2.5"/><circle cx="30" cy="190" r="2"/><circle cx="236" cy="230" r="3"/></g>
+          </svg>
+          <div class="chips">
+            <button class="chip" data-item="Termostato"><i>+</i>Termostatos</button>
+            <button class="chip" data-item="Filtro secador"><i>+</i>Filtros secadores</button>
+            <button class="chip" data-item="Motoventilador"><i>+</i>Motoventiladores</button>
+            <button class="chip" data-item="Fluido refrigerante"><i>+</i>Fluido refrigerante</button>
+            <button class="chip" data-item="Relé / protetor térmico"><i>+</i>Relés e protetores</button>
+          </div>
+        </article>
+        <article class="tile t-lav rv">
+          <div class="t-txt"><h3>Lava e seca</h3><p>Reposição pras marcas mais comuns.</p></div>
+          <svg class="t-art" viewBox="0 0 260 280" aria-hidden="true">
+            <rect x="40" y="20" width="180" height="240" rx="18" fill="#fff"/><rect x="40" y="20" width="180" height="46" rx="18" fill="#e3e9ef"/><rect x="40" y="48" width="180" height="18" fill="#e3e9ef"/>
+            <circle cx="70" cy="43" r="9" fill="#27324a"/><rect x="150" y="38" width="50" height="10" rx="5" fill="#7cd284"/>
+            <circle cx="130" cy="160" r="66" fill="#27324a"/><circle cx="130" cy="160" r="52" fill="#a8c6da"/>
+            <g class="drum" style="transform-origin:130px 160px"><path d="M78 168q26-18 52 0t52 0v10q-26 30-52 30t-52-30z" fill="#6c9ab8"/><circle cx="110" cy="140" r="8" fill="#fff" opacity=".8"/><circle cx="150" cy="132" r="5" fill="#fff" opacity=".7"/></g>
+          </svg>
+          <div class="chips">
+            <button class="chip" data-item="Bomba de drenagem"><i>+</i>Bombas de drenagem</button>
+            <button class="chip" data-item="Pressostato"><i>+</i>Pressostatos</button>
+            <button class="chip" data-item="Placa de lavadora"><i>+</i>Placas</button>
+            <button class="chip" data-item="Correia / rolamento"><i>+</i>Correias e rolamentos</button>
+          </div>
+        </article>
+        <article class="tile t-fer rv" style="--i:1">
+          <div class="t-txt"><h3>Ferramentas</h3><p>Pro técnico sair da loja trabalhando.</p></div>
+          <svg class="t-art" viewBox="0 0 420 260" aria-hidden="true">
+            <path d="M120 170q-30 60 40 70t120-10" fill="none" stroke="#a8c6da" stroke-width="10" stroke-linecap="round"/>
+            <path d="M210 170q20 50 100 40" fill="none" stroke="#f0b48a" stroke-width="10" stroke-linecap="round"/>
+            <path d="M300 170q50 0 70 50" fill="none" stroke="#7cd284" stroke-width="10" stroke-linecap="round"/>
+            <rect x="90" y="140" width="240" height="42" rx="10" fill="#d9dee5"/>
+            <rect x="62" y="150" width="30" height="22" rx="4" fill="#a8c6da"/><rect x="328" y="150" width="30" height="22" rx="4" fill="#a8c6da"/>
+            <rect x="148" y="112" width="14" height="30" fill="#d9dee5"/><rect x="258" y="112" width="14" height="30" fill="#d9dee5"/>
+            <circle cx="155" cy="76" r="50" fill="#a8c6da"/><circle cx="155" cy="76" r="40" fill="#fff"/>
+            <circle cx="265" cy="76" r="50" fill="#f0b48a"/><circle cx="265" cy="76" r="40" fill="#fff"/>
+            <g class="needle" style="transform-origin:155px 76px"><rect x="153" y="44" width="4" height="34" rx="2" fill="#10141d"/></g>
+            <g class="needle n2" style="transform-origin:265px 76px"><rect x="263" y="44" width="4" height="34" rx="2" fill="#10141d"/></g>
+            <circle cx="155" cy="76" r="6" fill="#10141d"/><circle cx="265" cy="76" r="6" fill="#10141d"/>
+            <circle cx="132" cy="161" r="8" fill="#10141d"/><circle cx="288" cy="161" r="8" fill="#10141d"/>
+          </svg>
+          <div class="chips">
+            <button class="chip" data-item="Manifold e mangueiras"><i>+</i>Manifold</button>
+            <button class="chip" data-item="Bomba de vácuo"><i>+</i>Bomba de vácuo</button>
+            <button class="chip" data-item="Flangeador"><i>+</i>Flangeador</button>
+            <button class="chip" data-item="Cortador de tubo"><i>+</i>Cortador de tubo</button>
+            <button class="chip" data-item="Detector de vazamento"><i>+</i>Detector de vazamento</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quem" aria-labelledby="h-quem">
+    <div class="wrap">
+      <h2 class="mega rv" id="h-quem">Quem passa no balcão</h2>
+      <div class="quem-grid">
+        <article class="rv"><p class="q-big">Técnico e instalador</p><p>Peça de reposição, ferramenta e material de instalação pra resolver o serviço no mesmo dia.</p></article>
+        <article class="rv" style="--i:1"><p class="q-big">Comércio</p><p>Freezer, expositor e balcão refrigerado de mercadinho, sorveteria e lanchonete parados não podem esperar.</p></article>
+        <article class="rv" style="--i:2"><p class="q-big">Quem conserta em casa</p><p>Leva o modelo do aparelho ou a peça velha, que a equipe ajuda a achar a certa.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pedido" id="pedido" aria-labelledby="h-ped">
+    <div class="wrap ped">
+      <div class="ped-text">
+        <h2 class="mega rv" id="h-ped">Manda a lista</h2>
+        <p class="rv" style="--i:1">Escolhe a loja e o pedido abre no WhatsApp dela já escrito. A equipe separa e você só passa pra pegar.</p>
+        <div class="phone rv" style="--i:2" aria-hidden="true">
+          <div class="ph-top"><span class="ph-av">JR</span><div><b id="ph-loja">Loja Kennedy</b><small>WhatsApp</small></div></div>
+          <div class="ph-body"><div class="bubble" id="bubble">Olá, JR! Quero fazer um pedido…</div></div>
+        </div>
+      </div>
+      <form class="pad rv" id="pad" style="--i:1">
+        <div class="pad-head"><b>Seu pedido</b><span id="status">vazio</span></div>
+        <ul class="lines" id="lines" aria-live="polite"></ul>
+        <div class="newline">
+          <label class="sr" for="novo">Outra peça</label>
+          <input class="field" id="novo" placeholder="Outra peça" autocomplete="off">
+          <button type="button" id="addnew">Anotar</button>
+        </div>
+        <label class="sr" for="nome">Seu nome</label>
+        <input class="field" id="nome" placeholder="Seu nome (opcional)" autocomplete="name">
+        <fieldset class="pick">
+          <legend>Retirar na loja</legend>
+          <label><input type="radio" name="loja" value="kennedy" checked><span>Kennedy</span></label>
+          <label><input type="radio" name="loja" value="dirceu"><span>Dirceu</span></label>
+        </fieldset>
+        <a class="btn wa send" id="send" href="https://wa.me/5586999075148" aria-disabled="true"><svg aria-hidden="true"><use href="#wa"/></svg>Enviar pelo WhatsApp</a>
+      </form>
+    </div>
+  </section>
+
+  <section class="lojas" id="lojas" aria-labelledby="h-lojas">
+    <div class="wrap">
+      <h2 class="mega rv" id="h-lojas">Duas lojas</h2>
+      <div class="lj">
+        <article class="loja rv">
+          <svg class="map" viewBox="0 0 600 260" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="600" height="260" fill="var(--bg-2)"/>
+            <g fill="var(--bg-3)"><rect x="20" y="20" width="150" height="80" rx="6"/><rect x="200" y="20" width="120" height="80" rx="6"/><rect x="350" y="20" width="230" height="80" rx="6"/><rect x="20" y="160" width="230" height="80" rx="6"/><rect x="280" y="160" width="140" height="80" rx="6"/><rect x="450" y="160" width="130" height="80" rx="6"/></g>
+            <path d="M-10 130H610" stroke="var(--paper)" stroke-width="34"/><path d="M-10 130H610" stroke="var(--green)" stroke-width="3" stroke-dasharray="14 12" opacity=".7"/>
+            <path d="M185 -10V270M335 -10V270" stroke="var(--paper)" stroke-width="16"/>
+            <text x="24" y="122" font-size="13" font-weight="700" fill="var(--soft)" font-family="Schibsted Grotesk,sans-serif">Av. Presidente Kennedy</text>
+            <g class="pinpulse"><circle cx="420" cy="114" r="22" fill="var(--green)" opacity=".25"/></g><path d="M420 116s-16-14-16-27a16 16 0 1 1 32 0c0 13-16 27-16 27Z" fill="var(--ink)"/><circle cx="420" cy="89" r="6" fill="var(--paper)"/>
+          </svg>
+          <h3>Kennedy</h3>
+          <address>Av. Presidente Kennedy, 1835<br>Leste · Teresina-PI · CEP 64052-335</address>
+          <p class="num">WhatsApp <a href="https://wa.me/5586999075148">(86) 99907-5148</a></p>
+          <div class="acts">
+            <a class="btn dark" href="https://wa.me/5586999075148?text=Ol%C3%A1%2C%20JR!%20Vim%20pelo%20site.">Chamar <span class="ar" aria-hidden="true">→</span></a>
+            <a class="link" href="https://www.google.com/maps/search/?api=1&query=JR+Refrigera%C3%A7%C3%A3o+Av.+Presidente+Kennedy+1835+Teresina">Ver no mapa</a>
+          </div>
+        </article>
+        <article class="loja rv" style="--i:1">
+          <svg class="map" viewBox="0 0 600 260" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="600" height="260" fill="var(--bg-2)"/>
+            <g fill="var(--bg-3)"><rect x="20" y="20" width="110" height="90" rx="6"/><rect x="160" y="20" width="110" height="90" rx="6"/><rect x="300" y="20" width="110" height="90" rx="6"/><rect x="440" y="20" width="140" height="90" rx="6"/><rect x="20" y="150" width="110" height="90" rx="6"/><rect x="160" y="150" width="110" height="90" rx="6"/><rect x="300" y="150" width="110" height="90" rx="6"/><rect x="440" y="150" width="140" height="90" rx="6"/></g>
+            <path d="M-10 130H610" stroke="var(--paper)" stroke-width="20"/><path d="M145 -10V270M285 -10V270M425 -10V270" stroke="var(--paper)" stroke-width="16"/>
+            <text x="24" y="135" font-size="13" font-weight="700" fill="var(--soft)" font-family="Schibsted Grotesk,sans-serif">Dirceu Arcoverde I</text>
+            <g class="pinpulse"><circle cx="355" cy="114" r="22" fill="var(--green)" opacity=".25"/></g><path d="M355 116s-16-14-16-27a16 16 0 1 1 32 0c0 13-16 27-16 27Z" fill="var(--ink)"/><circle cx="355" cy="89" r="6" fill="var(--paper)"/>
+          </svg>
+          <h3>Dirceu</h3>
+          <address>Conj. Dirceu Arcoverde I, Q. 87, nº 20<br>Parque Ideal · Teresina-PI · CEP 64077-270</address>
+          <p class="num">WhatsApp <a href="https://wa.me/5586995023860">(86) 99502-3860</a></p>
+          <div class="acts">
+            <a class="btn dark" href="https://wa.me/5586995023860?text=Ol%C3%A1%2C%20JR!%20Vim%20pelo%20site.">Chamar <span class="ar" aria-hidden="true">→</span></a>
+            <a class="link" href="https://www.google.com/maps/search/?api=1&query=-5.0986835,-42.7547049">Ver no mapa</a>
+          </div>
+        </article>
+      </div>
+      <div class="serv rv">
+        <div><h3>Precisa de serviço?</h3><p>WhatsApp só pra serviços: (86) 99575-3376 · Fixo: (86) 3211-7825</p></div>
+        <a class="btn dark" href="https://wa.me/5586995753376?text=Ol%C3%A1%2C%20JR!%20Preciso%20de%20um%20servi%C3%A7o.">Falar com serviços <span class="ar" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="insta" aria-labelledby="h-insta">
+    <div class="wrap">
+      <div class="insta-box rv">
+        <div>
+          <h2 class="mega" id="h-insta">No Instagram</h2>
+          <p>Novidade, peça que chegou e dica de serviço. Os destaques do perfil:</p>
+        </div>
+        <ul class="hl">
+          <li><a href="https://www.instagram.com/jrrefrigeracao_"><span class="ring"><svg viewBox="0 0 40 40"><path d="M14 26l-5 5M24 8a7 7 0 0 0-8 9L8 25a3 3 0 0 0 4 4l8-8a7 7 0 0 0 9-8l-4 4-3.5-.8-.8-3.5z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg></span>Ferramentas</a></li>
+          <li><a href="https://www.instagram.com/jrrefrigeracao_"><span class="ring"><svg viewBox="0 0 40 40"><rect x="5" y="11" width="30" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M11 28c0 2-2 2-2 5M20 28c0 2-2 2-2 5M29 28c0 2-2 2-2 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></span>Ar condicionado</a></li>
+          <li><a href="https://www.instagram.com/jrrefrigeracao_"><span class="ring"><svg viewBox="0 0 40 40"><rect x="8" y="5" width="24" height="30" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="22" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></span>Lava e seca</a></li>
+          <li><a href="https://www.instagram.com/jrrefrigeracao_"><span class="ring"><svg viewBox="0 0 40 40"><path d="M20 6l3.5 8.5L32 16l-6.5 6 2 9L20 26.5 12.5 31l2-9L8 16l8.5-1.5z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg></span>Comemorações</a></li>
+        </ul>
+        <a class="btn" href="https://www.instagram.com/jrrefrigeracao_">Seguir @jrrefrigeracao_ <span class="ar" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-top">
+      <div><h4>Loja Kennedy</h4><p>Av. Presidente Kennedy, 1835<br>Leste, Teresina-PI</p></div>
+      <div><h4>Loja Dirceu</h4><p>Dirceu Arcoverde I, Q. 87, nº 20<br>Parque Ideal, Teresina-PI</p></div>
+      <div><h4>Contato</h4><ul><li><a href="tel:+558632117825">(86) 3211-7825</a></li><li><a href="https://wa.me/5586995753376">Serviços (86) 99575-3376</a></li></ul></div>
+      <div><h4>Redes</h4><ul><li><a href="https://www.instagram.com/jrrefrigeracao_">@jrrefrigeracao_</a></li><li><a href="#pedido">Fazer pedido</a></li></ul></div>
+    </div>
+    <p class="f-mark" aria-hidden="true">JR <span>Refrigeração</span></p>
+    <p class="legal">JR Refrigeração · A sua loja parceira · Teresina-PI</p>
+  </div>
+</footer>
+
+<div class="fab" id="fab">
+  <div class="fab-menu" id="fab-menu">
+    <a href="https://wa.me/5586999075148?text=Ol%C3%A1%2C%20JR!%20Vim%20pelo%20site.">Loja Kennedy<small>(86) 99907-5148</small></a>
+    <a href="https://wa.me/5586995023860?text=Ol%C3%A1%2C%20JR!%20Vim%20pelo%20site.">Loja Dirceu<small>(86) 99502-3860</small></a>
+    <a href="https://wa.me/5586995753376?text=Ol%C3%A1%2C%20JR!%20Preciso%20de%20um%20servi%C3%A7o.">Serviços<small>(86) 99575-3376</small></a>
+  </div>
+  <button class="fab-btn" id="fab-btn" aria-expanded="false" aria-controls="fab-menu" aria-label="Falar no WhatsApp"><svg aria-hidden="true"><use href="#wa"/></svg></button>
+</div>
+
+<script>
+(()=>{
+  const $=s=>document.querySelector(s);
+  const LOJAS={kennedy:{nome:'Loja Kennedy',num:'5586999075148'},dirceu:{nome:'Loja Dirceu',num:'5586995023860'}};
+  let itens=[];
+  try{itens=JSON.parse(localStorage.getItem('jr-pedido')||'[]')}catch(e){}
+  const lines=$('#lines'),send=$('#send'),status=$('#status'),count=$('#count');
+  const save=()=>{try{localStorage.setItem('jr-pedido',JSON.stringify(itens))}catch(e){}};
+  let last=-1;
+  function render(){
+    lines.innerHTML='';
+    if(!itens.length){const li=document.createElement('li');li.className='empty';li.textContent='Toca nas peças ou escreve abaixo.';lines.append(li)}
+    itens.forEach((it,i)=>{
+      const li=document.createElement('li');
+      li.innerHTML='<span></span><span class="q"><button type="button">−</button><output></output><button type="button">+</button></span>';
+      li.firstChild.textContent=it.n;
+      li.querySelector('output').textContent=it.q+'×';
+      const [m,p]=li.querySelectorAll('button');
+      m.setAttribute('aria-label','Diminuir '+it.n);p.setAttribute('aria-label','Aumentar '+it.n);
+      m.onclick=()=>{it.q--;if(it.q<1)itens.splice(i,1);update()};
+      p.onclick=()=>{it.q++;update()};
+      lines.append(li);
+    });
+    const total=itens.reduce((a,b)=>a+b.q,0);
+    status.textContent=total?`${total} ${total===1?'peça':'peças'}`:'vazio';
+    count.textContent=total;
+    if(last>=0&&total!==last){count.classList.add('bump');setTimeout(()=>count.classList.remove('bump'),250)}
+    last=total;
+    document.querySelectorAll('[data-item]').forEach(b=>b.setAttribute('aria-pressed',itens.some(x=>x.n===b.dataset.item)));
+    link();
+  }
+  function link(){
+    const loja=LOJAS[document.querySelector('input[name=loja]:checked').value];
+    const nome=$('#nome').value.trim();
+    let t=`Olá, JR! Quero fazer um pedido na ${loja.nome}:\n`;
+    itens.forEach(it=>t+=`• ${it.q}× ${it.n}\n`);
+    if(nome)t+=`\nNome: ${nome}`;
+    send.href=`https://wa.me/${loja.num}?text=${encodeURIComponent(t)}`;
+    const bb=document.getElementById('bubble');if(bb){bb.textContent=itens.length?t.trim():'Olá, JR! Quero fazer um pedido…';bb.style.animation='none';bb.offsetWidth;bb.style.animation='';document.getElementById('ph-loja').textContent=loja.nome}
+    send.setAttribute('aria-disabled',itens.length?'false':'true');
+    send.tabIndex=itens.length?0:-1;
+  }
+  const update=()=>{save();render()};
+  function add(n){n=n.trim();if(!n)return;const f=itens.find(x=>x.n.toLowerCase()===n.toLowerCase());f?f.q++:itens.push({n,q:1});update()}
+  document.querySelectorAll('[data-item]').forEach(b=>b.addEventListener('click',()=>{
+    const i=itens.findIndex(x=>x.n===b.dataset.item);
+    if(i>-1){itens.splice(i,1);update()}else add(b.dataset.item);
+  }));
+  $('#addnew').onclick=()=>{add($('#novo').value);$('#novo').value='';$('#novo').focus()};
+  $('#novo').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('#addnew').click()}});
+  $('#pad').addEventListener('submit',e=>e.preventDefault());
+  $('#pad').addEventListener('input',link);
+  $('#pad').addEventListener('change',link);
+  render();
+
+  const fab=$('#fab'),fb=$('#fab-btn');
+  const close=()=>{fab.classList.remove('open');fb.setAttribute('aria-expanded','false')};
+  fb.onclick=()=>{const o=fab.classList.toggle('open');fb.setAttribute('aria-expanded',o)};
+  document.addEventListener('click',e=>{if(!fab.contains(e.target))close()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+
+  /* nome do rodapé ocupa a largura */
+  const mk=$('.f-mark');const fit=()=>{mk.style.fontSize='100px';const cs=getComputedStyle(mk.parentElement);const w=mk.parentElement.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);mk.style.fontSize=(100*w/mk.getBoundingClientRect().width*.99)+'px'};
+  document.fonts&&document.fonts.ready.then(fit);addEventListener('resize',fit);fit();
+
+
+  const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12}):null;
+  document.querySelectorAll('.rv').forEach(el=>io?io.observe(el):el.classList.add('in'));
+})();
+</script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script>(function(){try{var c=document.createElement('canvas');if(!(c.getContext('webgl2')||c.getContext('webgl')))document.documentElement.classList.add('no-gl')}catch(e){document.documentElement.classList.add('no-gl')}})();</script>
+<script type="module">
+import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const canvas = document.getElementById('gl');
+const stage = document.getElementById('stage');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
+} catch (e) { document.documentElement.classList.add('no-gl'); throw e; }
+renderer.setPixelRatio(Math.min(devicePixelRatio, innerWidth < 760 ? 1.5 : 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+
+const scene = new THREE.Scene();
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+
+const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(3, 5, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0xbfe0ff, 1.2); rim.position.set(-5, 2, -4); scene.add(rim);
+scene.add(new THREE.AmbientLight(0xffffff, 0.25));
+
+/* materiais */
+const M = {
+  shell: new THREE.MeshPhysicalMaterial({ color: 0xf7f8fa, roughness: 0.28, clearcoat: 1, clearcoatRoughness: 0.18, transparent: true }),
+  panel: new THREE.MeshPhysicalMaterial({ color: 0xffffff, roughness: 0.22, clearcoat: 1, clearcoatRoughness: 0.12 }),
+  grey: new THREE.MeshStandardMaterial({ color: 0xc9d1db, roughness: 0.45, metalness: 0.1 }),
+  dark: new THREE.MeshStandardMaterial({ color: 0x1f2738, roughness: 0.5 }),
+  fin: new THREE.MeshStandardMaterial({ color: 0xd8dde3, roughness: 0.3, metalness: 0.85 }),
+  copper: new THREE.MeshStandardMaterial({ color: 0xc8794a, roughness: 0.28, metalness: 1 }),
+  blue: new THREE.MeshStandardMaterial({ color: 0x8fb8d4, roughness: 0.4, metalness: 0.05 }),
+  pcb: new THREE.MeshStandardMaterial({ color: 0x2f8a4a, roughness: 0.55 }),
+  chip: new THREE.MeshStandardMaterial({ color: 0x151a22, roughness: 0.4 }),
+  silver: new THREE.MeshStandardMaterial({ color: 0xe4e7ec, roughness: 0.22, metalness: 0.9 }),
+  led: new THREE.MeshBasicMaterial({ color: 0x6fd27a }),
+  mesh: null,
+};
+{ // textura do filtro
+  const c = document.createElement('canvas'); c.width = c.height = 128;
+  const g = c.getContext('2d'); g.fillStyle = '#e9eef3'; g.fillRect(0, 0, 128, 128);
+  g.strokeStyle = '#7b8a9c'; g.lineWidth = 2;
+  for (let i = 0; i <= 128; i += 8) { g.beginPath(); g.moveTo(i, 0); g.lineTo(i, 128); g.stroke(); g.beginPath(); g.moveTo(0, i); g.lineTo(128, i); g.stroke(); }
+  const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(14, 3); t.colorSpace = THREE.SRGBColorSpace;
+  M.mesh = new THREE.MeshStandardMaterial({ map: t, roughness: 0.6 });
+}
+
+const W = 3.2;
+const root = new THREE.Group(); scene.add(root);
+const parts = {};
+function part(name, home, out) { const g = new THREE.Group(); g.userData = { home: new THREE.Vector3(...home), out: new THREE.Vector3(...out) }; root.add(g); parts[name] = g; return g; }
+
+/* carcaça (some quando desmonta) */
+const shell = part('shell', [0, 0, 0], [0, 0.1, -1.6]);
+shell.add(new THREE.Mesh(new RoundedBoxGeometry(W, 0.95, 0.72, 6, 0.2), M.shell));
+
+/* painel frontal + aleta + led */
+const panel = part('panel', [0, 0.1, 0.37], [0, 2.5, 0.7]);
+panel.add(new THREE.Mesh(new RoundedBoxGeometry(W + 0.02, 0.66, 0.06, 4, 0.03), M.panel));
+const louver = new THREE.Mesh(new RoundedBoxGeometry(W - 0.3, 0.05, 0.2, 2, 0.02), M.grey);
+louver.position.set(0, -0.42, -0.04); louver.rotation.x = -0.55; panel.add(louver);
+const led = new THREE.Mesh(new THREE.SphereGeometry(0.025, 16, 16), M.led); led.position.set(W / 2 - 0.25, 0.2, 0.04); panel.add(led);
+const strip = new THREE.Mesh(new THREE.BoxGeometry(W - 0.5, 0.012, 0.01), M.grey); strip.position.set(0, -0.2, 0.035); panel.add(strip);
+
+/* filtro */
+const filter = part('filter', [0, 0.12, 0.27], [0, 1.45, 0.3]);
+{ const f = new THREE.Mesh(new THREE.BoxGeometry(W - 0.25, 0.5, 0.025), [M.grey, M.grey, M.grey, M.grey, M.mesh, M.mesh]); filter.add(f);
+  const fr = new THREE.Mesh(new THREE.BoxGeometry(W - 0.2, 0.04, 0.04), M.grey); fr.position.y = 0.27; filter.add(fr.clone()); fr.position.y = -0.27; filter.add(fr); }
+
+/* serpentina: aletas + tubos de cobre */
+const coil = part('coil', [0, 0.1, 0.12], [0, 0.6, 0.25]);
+{ const n = 90, fin = new THREE.BoxGeometry(0.008, 0.52, 0.2), inst = new THREE.InstancedMesh(fin, M.fin, n), m = new THREE.Matrix4();
+  for (let i = 0; i < n; i++) { m.makeTranslation(-1.42 + i * (2.84 / (n - 1)), 0, 0); inst.setMatrixAt(i, m); } coil.add(inst);
+  for (const y of [-0.18, -0.06, 0.06, 0.18]) { const p = new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.018, 3.0, 12), M.copper); p.rotation.z = Math.PI / 2; p.position.y = y; coil.add(p); }
+  for (const [x, y, s] of [[1.5, -0.12, 1], [1.5, 0.12, 1], [-1.5, 0, -1]]) { const u = new THREE.Mesh(new THREE.TorusGeometry(0.06, 0.018, 10, 24, Math.PI), M.copper); u.position.set(x, y, 0); u.rotation.z = s > 0 ? -Math.PI / 2 : Math.PI / 2; coil.add(u); }
+  const tube = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.5, 12), M.copper); tube.position.set(-1.55, -0.32, -0.1); coil.add(tube); }
+
+/* turbina (gira) */
+const fan = part('fan', [0, -0.22, 0.02], [0, -0.45, 0.15]);
+const rotor = new THREE.Group(); fan.add(rotor);
+{ const L = 2.5, n = 30, blade = new THREE.BoxGeometry(L, 0.012, 0.11), inst = new THREE.InstancedMesh(blade, M.blue, n), m = new THREE.Matrix4(), q = new THREE.Quaternion(), s = new THREE.Vector3(1, 1, 1);
+  for (let i = 0; i < n; i++) { const a = (i / n) * Math.PI * 2; q.setFromEuler(new THREE.Euler(a + 0.6, 0, 0)); m.compose(new THREE.Vector3(0, Math.cos(a) * 0.17, Math.sin(a) * 0.17), q, s); inst.setMatrixAt(i, m); }
+  rotor.add(inst);
+  for (const x of [-L / 2, 0, L / 2]) { const d = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 0.025, 32), M.blue); d.rotation.z = Math.PI / 2; d.position.x = x; rotor.add(d); }
+  const ax = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.02, L + 0.4, 10), M.silver); ax.rotation.z = Math.PI / 2; rotor.add(ax);
+  const motor = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.22, 24), M.dark); motor.rotation.z = Math.PI / 2; motor.position.x = L / 2 + 0.17; fan.add(motor); }
+
+/* placa eletrônica */
+const pcb = part('pcb', [1.2, 0.05, -0.12], [1.05, -1.45, 0.2]);
+{ const b = new THREE.Mesh(new THREE.BoxGeometry(0.78, 0.03, 0.52), M.pcb); pcb.add(b);
+  for (const [x, z, w, h, d] of [[-0.18, -0.08, 0.2, 0.06, 0.2], [0.12, 0.1, 0.12, 0.05, 0.12], [0.2, -0.14, 0.22, 0.04, 0.08], [-0.24, 0.16, 0.14, 0.08, 0.1]]) { const c = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), M.chip); c.position.set(x, 0.015 + h / 2, z); pcb.add(c); }
+  const cn = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.08, 0.06), M.panel); cn.position.set(0.28, 0.05, 0.2); pcb.add(cn);
+  const sensor = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.12, 12), M.dark); sensor.position.set(-0.5, 0.02, 0.1); sensor.rotation.z = Math.PI / 2; pcb.add(sensor);
+  pcb.rotation.x = 0.9; }
+
+/* capacitor */
+const cap = part('cap', [1.25, -0.15, -0.22], [-1.05, -1.5, 0.2]);
+{ const body = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.13, 0.42, 32), M.silver); cap.add(body);
+  const band = new THREE.Mesh(new THREE.CylinderGeometry(0.133, 0.133, 0.18, 32), M.blue); cap.add(band);
+  const top = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.03, 32), M.dark); top.position.y = 0.225; cap.add(top);
+  for (const x of [-0.06, 0, 0.06]) { const t = new THREE.Mesh(new THREE.BoxGeometry(0.025, 0.07, 0.012), M.silver); t.position.set(x, 0.27, 0); cap.add(t); } }
+
+
+/* logo JR no painel */
+{ const c=document.createElement('canvas');c.width=512;c.height=128;const g=c.getContext('2d');
+  g.fillStyle='#27324a';g.font='900 86px "Schibsted Grotesk", Arial, sans-serif';g.textBaseline='middle';g.fillText('JR',8,66);
+  g.strokeStyle='#5fa964';g.lineWidth=9;g.lineCap='round';
+  for(let k=0;k<3;k++){g.beginPath();const y=36+k*26;g.moveTo(132,y);for(let x=0;x<4;x++){g.quadraticCurveTo(132+x*30+15,y-12,132+x*30+30,y);} g.stroke();}
+  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=4;
+  const logo=new THREE.Mesh(new THREE.PlaneGeometry(0.62,0.155),new THREE.MeshBasicMaterial({map:t,transparent:true}));
+  logo.position.set(-W/2+0.5,0.16,0.032);panel.add(logo);
+  document.fonts&&document.fonts.ready.then(()=>{g.clearRect(0,0,512,128);g.fillStyle='#27324a';g.font='900 86px "Schibsted Grotesk", Arial, sans-serif';g.fillText('JR',8,66);g.strokeStyle='#5fa964';for(let k=0;k<3;k++){g.beginPath();const y=36+k*26;g.moveTo(132,y);for(let x=0;x<4;x++){g.quadraticCurveTo(132+x*30+15,y-12,132+x*30+30,y);} g.stroke();}t.needsUpdate=true;});
+}
+/* sombra no chão */
+const shadowMat=(()=>{const c=document.createElement('canvas');c.width=c.height=256;const g=c.getContext('2d');const gr=g.createRadialGradient(128,128,10,128,128,128);gr.addColorStop(0,'rgba(0,0,0,.45)');gr.addColorStop(1,'rgba(0,0,0,0)');g.fillStyle=gr;g.fillRect(0,0,256,256);const t=new THREE.CanvasTexture(c);return new THREE.MeshBasicMaterial({map:t,transparent:true,depthWrite:false});})();
+const shadow=new THREE.Mesh(new THREE.PlaneGeometry(4.4,1.4),shadowMat);shadow.rotation.x=-Math.PI/2;shadow.position.set(0,-1.35,0.1);shadow.visible=false;
+/* ar gelado saindo da aleta */
+const AIR=150;const airGeo=new THREE.BufferGeometry();const airPos=new Float32Array(AIR*3);const airLife=new Float32Array(AIR);
+for(let i=0;i<AIR;i++){airLife[i]=Math.random();}
+airGeo.setAttribute('position',new THREE.BufferAttribute(airPos,3));
+const airTex=(()=>{const c=document.createElement('canvas');c.width=c.height=64;const g=c.getContext('2d');const gr=g.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(1,'rgba(255,255,255,0)');g.fillStyle=gr;g.fillRect(0,0,64,64);return new THREE.CanvasTexture(c);})();
+const airMat=new THREE.PointsMaterial({size:0.16,map:airTex,color:0xb4dcf5,transparent:true,opacity:.3,depthWrite:false});
+const air=new THREE.Points(airGeo,airMat);root.add(air);
+const airSeed=Array.from({length:AIR},()=>[(Math.random()-.5)*2.6,Math.random()]);
+const order = ['panel', 'filter', 'coil', 'fan', 'pcb', 'cap'];
+const anchors = { panel: [W / 2 + 0.05, 0, 0], filter: [W / 2 - 0.1, 0, 0], coil: [W / 2 + 0.05, 0.15, 0], fan: [W / 2 + 0.05, 0, 0], pcb: [0.42, 0, 0], cap: [0.15, 0.1, 0] };
+const tags = {}; document.querySelectorAll('.tag3').forEach(b => tags[b.dataset.part] = b);
+const step2 = document.getElementById('step2'), copy = document.querySelector('.copy'), hint = document.getElementById('hint'), big = document.querySelector('.bigword');
+
+let wide = true, sizeW = 1, sizeH = 1, zA = 8, zE = 10;
+function resize() {
+  sizeW = canvas.clientWidth; sizeH = canvas.clientHeight;
+  renderer.setSize(sizeW, sizeH, false);
+  const asp = sizeW / sizeH; camera.aspect = asp;
+  wide = asp > 1.15;
+  const halfH = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
+  const fit = (w, h) => Math.max(h / 2 / halfH, w / 2 / (halfH * asp));
+  zA = fit(wide ? 6.6 : 3.7, wide ? 3.4 : 4); zE = fit(wide ? 5 : 4.1, wide ? 7 : 8.6);
+  camera.position.z = zA;
+  camera.updateProjectionMatrix();
+  root.position.set(wide ? 1.15 : 0, wide ? 0 : -0.55, 0);
+}
+addEventListener('resize', resize); resize();
+
+const ss = (a, b, x) => { const t = Math.min(1, Math.max(0, (x - a) / (b - a))); return t * t * (3 - 2 * t); };
+let p = reduce ? 1 : 0, pt = p, mx = 0, my = 0, tmx = 0, tmy = 0, visible = true;
+addEventListener('pointermove', e => { tmx = e.clientX / innerWidth - 0.5; tmy = e.clientY / innerHeight - 0.5; }, { passive: true });
+new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(stage);
+
+const v = new THREE.Vector3(); const clock = new THREE.Clock(); let T = 0;
+function frame() {
+  if (!window.__cap) requestAnimationFrame(frame);
+  const dt = window.__cap ? 1 / 30 : Math.min(clock.getDelta(), 0.05); T += dt;
+  if (!visible) return;
+  const r = stage.getBoundingClientRect();
+  const total = r.height - innerHeight;
+  pt = reduce ? 1 : Math.min(1, Math.max(0, -r.top / Math.max(1, total)));
+  p += (pt - p) * Math.min(1, dt * 7);
+  mx += (tmx - mx) * dt * 3; my += (tmy - my) * dt * 3;
+  const e = ss(0.08, 0.62, p);
+  camera.position.z = zA + (zE - zA) * e;
+  if (!wide) root.position.y = -0.55 - e * 0.85;
+
+  root.rotation.y = -0.5 + e * 0.38 + mx * 0.35 + (reduce ? 0 : Math.sin(T * 0.7) * (0.14 - e * 0.08));
+  root.rotation.x = 0.12 - e * 0.06 + my * 0.12;
+  order.concat('shell').forEach((n, i) => {
+    const g = parts[n], d = n === 'shell' ? e : ss(0.06 + i * 0.05, 0.5 + i * 0.05, p);
+    g.position.lerpVectors(g.userData.home, g.userData.out, d);
+  });
+  M.shell.opacity = 1 - ss(0.1, 0.35, p); parts.shell.visible = M.shell.opacity > 0.01;
+  pcb.rotation.x = 0.9 * (1 - e) + 0.45 * e;
+  if (!reduce) rotor.rotation.x += dt * (2 + e * 4);
+  louver.rotation.x = -0.55 + Math.sin(T * 0.8) * 0.08 * (1 - e);
+
+  // ar e sombra
+  airMat.opacity=0.3*(1-ss(0.02,0.2,p)); air.visible=airMat.opacity>0.01;
+  if(air.visible){for(let i=0;i<AIR;i++){airLife[i]+=dt*(0.35+airSeed[i][1]*0.3);if(airLife[i]>1)airLife[i]-=1;const l=airLife[i];
+    airPos[i*3]=airSeed[i][0]+Math.sin(l*6+i)*0.05;airPos[i*3+1]=-0.42-l*1.1-l*l*0.3;airPos[i*3+2]=0.45+l*1.4;}
+    airGeo.attributes.position.needsUpdate=true;}
+  // texto e etiquetas
+  const c = 1 - ss(0.12, 0.32, p);
+  copy.style.opacity = wide ? Math.max(c, 0) : c; copy.style.transform = `translateY(${(1 - c) * -24}px)`;
+  copy.style.pointerEvents = c > 0.5 ? 'auto' : 'none';
+  const s2 = ss(0.55, 0.72, p); step2.style.opacity = s2; step2.style.transform = `translateY(${(1 - s2) * 20}px)`;
+  hint.style.opacity = 1 - ss(0.02, 0.1, p);
+  big.style.transform = `translate(-50%,-50%) translateY(${p * -6}svh) scale(${1 + e * 0.08})`;
+  const tv = ss(0.6, 0.78, p);
+  order.forEach(n => {
+    const a = anchors[n]; v.set(a[0], a[1], a[2]); parts[n].localToWorld(v); v.project(camera);
+    const x = (v.x * 0.5 + 0.5) * sizeW, y = (-v.y * 0.5 + 0.5) * sizeH;
+    const t = tags[n]; const off = wide ? 44 : 24;
+    t.style.transform = `translate(${Math.min(x + off, sizeW - t.offsetWidth - 8)}px, ${y - t.offsetHeight / 2}px)`;
+    t.style.opacity = tv; t.classList.toggle('on', tv > 0.6);
+  });
+  renderer.render(scene, camera);
+}
+window.__step = frame;
+frame();
+</script>
+</body>
+</html>
