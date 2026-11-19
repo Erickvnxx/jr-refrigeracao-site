@@ -83,15 +83,10 @@ h2.mega{font-size:clamp(2.6rem,1.4rem + 4vw,5.2rem)}
 .step2 .mega{font-size:clamp(2.2rem,1.2rem + 2.6vw,3.8rem);line-height:.95}
 .step2 p:last-child{margin-top:10px;color:var(--soft)}
 .tags{position:absolute;inset:0;z-index:4;pointer-events:none}
-.tag3{position:absolute;left:0;top:0;display:inline-flex;align-items:center;gap:8px;padding:8px 14px 8px 8px;border:0;border-radius:999px;background:var(--paper);color:var(--ink);box-shadow:0 8px 24px -10px rgba(0,0,0,.35),inset 0 0 0 1px color-mix(in srgb,var(--ink) 12%,transparent);font:700 .85rem/1 var(--font);white-space:nowrap;cursor:pointer;opacity:0;pointer-events:none;transition:background-color .15s,color .15s,box-shadow .2s}
+.tag3{position:absolute;left:0;top:0;display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:0;border-radius:999px;background:var(--paper);color:var(--ink);box-shadow:0 8px 24px -10px rgba(0,0,0,.35),inset 0 0 0 1px color-mix(in srgb,var(--ink) 12%,transparent);font:700 .85rem/1 var(--font);white-space:nowrap;cursor:default;opacity:0;pointer-events:none;transition:background-color .15s,color .15s,box-shadow .2s}
 .tag3::before{content:"";position:absolute;right:100%;top:50%;width:34px;height:2px;background:var(--ink);opacity:.55}
 .tag3::after{content:"";position:absolute;right:calc(100% + 30px);top:50%;width:8px;height:8px;margin-top:-3px;border-radius:50%;background:var(--ink)}
 .tag3 i{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--paper);font-style:normal;font-weight:800;font-size:1rem;transition:transform .25s var(--ease),background-color .2s}
-.tag3.on{pointer-events:auto}
-.tag3:hover{background:var(--ink);color:var(--paper)}
-.tag3:hover i{background:var(--green);color:var(--green-ink)}
-.tag3[aria-pressed="true"]{background:var(--green);color:var(--green-ink)}
-.tag3[aria-pressed="true"] i{background:var(--green-ink);color:var(--green);transform:rotate(45deg)}
 .hint{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);z-index:3;font-weight:700;font-size:.8rem;color:var(--soft)}
 .hint span{display:inline-block;animation:bob 1.6s ease-in-out infinite}
 @keyframes bob{50%{transform:translateY(4px)}}
@@ -110,7 +105,7 @@ h2.mega{font-size:clamp(2.6rem,1.4rem + 4vw,5.2rem)}
   .copy .btn{display:none}
   .step2{left:var(--m);right:var(--m);top:96px;bottom:auto;max-width:none}
   .step2 .mega{font-size:clamp(2rem,9vw,2.8rem)}
-  .tag3{font-size:.72rem;padding:6px 10px 6px 6px}
+  .tag3{font-size:.72rem;padding:7px 12px}
   .tag3 i{width:20px;height:20px;font-size:.9rem}
   .tag3::before{width:18px}.tag3::after{right:calc(100% + 15px)}
 }
@@ -341,15 +336,15 @@ footer{background:var(--ink);color:var(--bg);padding:64px 0 28px;overflow:hidden
       </div>
       <div class="step2" id="step2">
         <p class="mega">Seis peças de um split.</p>
-        <p>Todas no balcão da JR. Toca numa peça pra colocar no pedido.</p>
+        <p>Todas no balcão da JR, nas lojas Kennedy e Dirceu.</p>
       </div>
       <div class="tags" id="tags">
-        <button class="tag3" data-part="panel" data-item="Tampa / painel frontal"><i>+</i>Painel frontal</button>
-        <button class="tag3" data-part="filter" data-item="Filtro de ar"><i>+</i>Filtro</button>
-        <button class="tag3" data-part="coil" data-item="Serpentina"><i>+</i>Serpentina</button>
-        <button class="tag3" data-part="fan" data-item="Turbina"><i>+</i>Turbina</button>
-        <button class="tag3" data-part="pcb" data-item="Placa / sensor de split"><i>+</i>Placa e sensor</button>
-        <button class="tag3" data-part="cap" data-item="Capacitor"><i>+</i>Capacitor</button>
+        <span class="tag3" data-part="panel">Painel frontal</span>
+        <span class="tag3" data-part="filter">Filtro</span>
+        <span class="tag3" data-part="coil">Serpentina</span>
+        <span class="tag3" data-part="fan">Turbina</span>
+        <span class="tag3" data-part="pcb">Placa e sensor</span>
+        <span class="tag3" data-part="cap">Capacitor</span>
       </div>
       <p class="hint" id="hint" aria-hidden="true">Role pra desmontar <span>↓</span></p>
     </div>
@@ -837,7 +832,7 @@ function frame() {
     const x = (v.x * 0.5 + 0.5) * sizeW, y = (-v.y * 0.5 + 0.5) * sizeH;
     const t = tags[n]; const off = wide ? 44 : 24;
     t.style.transform = `translate(${Math.min(x + off, sizeW - t.offsetWidth - 8)}px, ${y - t.offsetHeight / 2}px)`;
-    t.style.opacity = tv; t.classList.toggle('on', tv > 0.6);
+    t.style.opacity = tv;
   });
   renderer.render(scene, camera);
 }
