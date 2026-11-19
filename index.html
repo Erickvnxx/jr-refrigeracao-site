@@ -156,6 +156,8 @@ h2.mega{font-size:clamp(2.6rem,1.4rem + 4vw,5.2rem)}
 .t-ac .chip i{background:rgba(255,255,255,.16)}
 .tile .chip:hover{background:#10141d;color:#fff}
 .t-ac .chip:hover{background:#fff;color:#10141d}
+.tile .chip[aria-pressed="true"]{background:var(--green);color:var(--green-ink)}
+.tile .chip[aria-pressed="true"] i{background:var(--green-ink);color:var(--green)}
 .spin{animation:sp 1.6s linear infinite}
 @keyframes sp{to{transform:rotate(360deg)}}
 .drum{animation:sp 3.5s linear infinite}
